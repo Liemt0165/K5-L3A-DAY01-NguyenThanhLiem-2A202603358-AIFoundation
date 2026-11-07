@@ -1,0 +1,31 @@
+# Python / Virtual Environment
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
+venv/
+ENV/
+env/
+
+# Secrets & Environment variables (CỰC KỲ QUAN TRỌNG: tránh lộ API Key)
+.env
+.env.*
+!.env.example
+
+# Jupyter / Scratch / Caches
+.cache/
+.kaggle/
+*.log
+
+# Tránh commit file json bị sinh nhầm ở thư mục gốc (bản nộp phải nằm trong report/individual/)
+/lab1_report.json
+/src/lab1_report.json
+*.zip
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
